@@ -1,7 +1,5 @@
 # Weather-Widget
 
-Descrição
-
 Este repositório demonstra como utilizar o serviço OpenWeather para exibir informações meteorológicas em aplicações que não suportam diretamente JavaScript, como o Power BI. Para contornar a limitação, utilizamos a API do OpenWeather e/ou um widget hospedado em HTML, que pode ser incorporado via iframe ou utilizado como uma fonte de dados.
 
 # Como Funciona
