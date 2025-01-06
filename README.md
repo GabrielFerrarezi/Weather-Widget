@@ -41,11 +41,12 @@ O widget foi gerado com o seguinte código:
     })();
 </script>
 
+
 Este código foi hospedado no GitHub Pages e está disponível em:https://gabrielferrarezi.github.io/Weather-Widget/.
 
 # Como Integrar em Softwares sem Suporte a JavaScript
 
-# 1. Utilizar o Widget via iFrame
+ 1. Utilizar o Widget via iFrame
 
 Se o software suporta HTML, mas não JavaScript, o widget pode ser incorporado como um iframe:
 
@@ -55,7 +56,7 @@ Exemplo de uso:
 
 Power BI: Use um visual de conteúdo HTML ou um visual customizado para incorporar o iframe.
 
-# 2. Consumir Dados da API do OpenWeather
+ 2. Consumir Dados da API do OpenWeather
 
 Para softwares que suportam integração via API (como Power BI, Excel ou aplicações em Python), você pode consumir diretamente os dados JSON/XML da API OpenWeather.
 
@@ -88,19 +89,19 @@ Dados Retornados (Exemplo JSON):
 
 # Casos de Uso
 
-# 1. Dashboards em Power BI ou Excel:
+ 1. Dashboards em Power BI ou Excel:
 
 Visualize dados meteorológicos atualizados em tempo real.
 
 Personalize gráficos e tabelas com informações como temperatura, umidade e condições climáticas.
 
-# 2. Aplicações Python:
+ 2. Aplicações Python:
 
 Consuma os dados para análises avançadas.
 
 Crie notificações automatizadas baseadas no clima.
 
-# 3. Sites e Portais Web:
+ 3. Sites e Portais Web:
 
 Incorpore o widget ou exiba dados meteorológicos usando a API.
 
