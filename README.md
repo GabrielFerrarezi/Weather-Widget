@@ -16,29 +16,28 @@ Neste exemplo, o widget foi hospedado no GitHub Pages, tornando-o acessível via
 
 O widget foi gerado com o seguinte código:
 
-<div id="openweathermap-widget-21"></div>
-<script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
-<script>
-    window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
-    window.myWidgetParam.push({
-        id: 21,
-        cityid: '3453643',
-        appid: '1dac116f3328449e4e5ab79d1b0d9394',
-        units: 'metric',
-        containerid: 'openweathermap-widget-21',
-    });
-    (function() {
-        var script = document.createElement('script');
-        script.async = true;
-        script.charset = "utf-8";
-        script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(script, s);
-    })();
-</script>
+    <div id="openweathermap-widget-21"></div>
+    <script src='//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/d3.min.js'></script>
+    <script>
+        window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];
+        window.myWidgetParam.push({
+            id: 21,
+            cityid: '3453643',
+            appid: '1dac116f3328449e4e5ab79d1b0d9394',
+            units: 'metric',
+            containerid: 'openweathermap-widget-21',
+        });
+        (function() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.charset = "utf-8";
+            script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(script, s);
+        })();
+    </script>
 
-
-Este código foi hospedado no GitHub Pages e está disponível em:https://gabrielferrarezi.github.io/Weather-Widget/.
+- Este código foi hospedado no GitHub Pages e está disponível em:https://gabrielferrarezi.github.io/Weather-Widget/.
 
 # Como Integrar em Softwares sem Suporte a JavaScript
 
